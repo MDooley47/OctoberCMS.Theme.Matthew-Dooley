@@ -1,0 +1,23 @@
+title = "Github"
+url = "/social/github"
+layout = "default"
+==
+{% set url = "https://www.github.com/MDooley47/" %}
+{% block styles %}
+    <meta http-equiv="refresh" content="0;url={{ url }}" />
+{% endblock %}
+<article style="margin-top:55px;padding-top:5px;font-size:16px;color:#22292f;">
+    <header style="margin-top:50px;margin-bottom:50px;">
+        <h1 class="text-center" style="font-family:Arvo, serif;">So you want to follow me, eh?</h1>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <a href="{{ url }}" target="blank" class="a-social">
+                    <p class="text-center" style="color:#22292f;"><i class="fa fa-github-square" style="font-size:200px;"></i></p>
+                    <p class="text-center sr-only">Follow me on GitHub.</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</article>
